@@ -1,4 +1,4 @@
-# Personalized Podcast — 工作痛点、使用方法与 Skill 详解
+# Personalized Podcast
 
 ## 一、它解决了什么工作痛点？
 
