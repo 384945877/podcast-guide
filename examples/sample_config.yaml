@@ -1,0 +1,27 @@
+# =============================================================================
+# Sample Configuration — Example filled-in config
+# =============================================================================
+# This shows a working configuration with all fields filled in.
+# Copy to ~/.personalized-podcast/config.yaml and adjust as needed.
+# =============================================================================
+
+show_name: "My Daily Digest"
+description: "A personalized AI-generated podcast."
+owner_email: "you@example.com"
+hosts: 2
+length_minutes: 10
+tone: "casual and conversational"
+language: "en"
+
+tts:
+  provider: "fishaudio"
+  api_key_env: "FISH_API_KEY"
+  host_a_voice_id: "544c5489106842be8d63d6b619f6a125"   # Male — natural, conversational
+  host_b_voice_id: "933563129e564b19a115bedd57b7406a"   # Sarah — warm, engaging female
+
+publish:
+  github_repo: "username/podcast-feed"
+  base_url: "https://username.github.io/podcast-feed"
+
+retention:
+  max_episodes: 30
